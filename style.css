@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+.app .counter {
+  background-image: linear-gradient(to bottom right, #4ca1af, #c4e0e5);
+  max-width: 500px;
+  padding: 30px;
+  margin: 0 auto 10px auto;
+  border-radius: 20px;
+}
+.title {
+  font-size: 40px;
+  text-transform: capitalize;
+  border-bottom: 2px solid;
+  margin-bottom: 10px;
+}
+.btn-group {
+  margin: 10px 0;
+}
+.btn {
+  background-color: #678779;
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.btn-size {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+#value {
+  font-size: 40px;
+  color: rgb(83, 46, 46);
+}
